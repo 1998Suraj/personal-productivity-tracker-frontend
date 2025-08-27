@@ -6,7 +6,7 @@ import ProgressChart from './charts/ProgressChart';
 import StreakChart from './charts/StreakChart';
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'https://personal-productivity-tracker-backend.onrender.com/api';
 
 const Dashboard = () => {
   const { user } = useAuth();

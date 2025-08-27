@@ -5,7 +5,7 @@ import { useTheme } from '../contexts/ThemeContext';
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'https://personal-productivity-tracker-backend.onrender.com/api';
 
 const Settings = () => {
   const { user, updateUser } = useAuth();

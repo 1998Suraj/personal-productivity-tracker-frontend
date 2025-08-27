@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BarChart3, TrendingUp, Calendar, Target, Award, Clock } from 'lucide-react';
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = 'https://personal-productivity-tracker-backend.onrender.com/api';
 
 const Analytics = () => {
   const [analytics, setAnalytics] = useState({

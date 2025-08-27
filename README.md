@@ -114,7 +114,7 @@ npm start
 
 The application will be available at:
 - Frontend: `http://localhost:5173`
-- Backend API: `http://localhost:8000`
+- Backend API: `https://personal-productivity-tracker-backend.onrender.com`   
 
 ## Database Schema
 
